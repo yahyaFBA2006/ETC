@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-blue-gradient {
+    background: linear-gradient(
+      157.81deg,
+      #000000 -43.27%,
+      #6bd4e2 -21.24%,
+      #000000 12.19%,
+      #54e6e6 29.82%,
+      #242525 51.94%,
+      #33bbcf 90.29%
+    );
+  }
+
+  .text-red-gradient {
+    background: radial-gradient(
+      64.18% 64.18% at 71.16% 35.69%,
+      #fdffa4 -43.27%,
+      #ffbe82 -21.24%,
+      #ff9a5f 12.19%,
+      #eb6a43 29.82%,
+      #f85524 51.94%,
+      #00ffff 90.29%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+
+  .text-title-gradient {
+    background: radial-gradient(
+      64.18% 64.18% at 71.16% 35.69%,
+      #fdffa4 -43.27%,
+      #ff0000 -21.24%,
+      #0011ac 12.19%,
+      #ff0000 29.82%,
+      #0c007c 51.94%,
+      #fd0000 90.29%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+
+.arrow{
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  justify-self: center;
+}
