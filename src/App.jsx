@@ -6,7 +6,7 @@ import Contact from './pages/Contact'
 
 function App() {
 return(
-  <div className="bg-blue-gradient pt-[10px] pb-[20px] justify-center">
+  <div className="bg-blue-gradient pt-[10px] pb-[20px] justify-center box-border overflow-hidden ">
 
   <Navbar/> 
   <Hero/>
