@@ -110,7 +110,7 @@ It aims to organize activities in all tech field such as <span className='text-v
   {/* <img className="w-20 md:w-32 animate-bounce" src={toggle? arrow : arrow2 } alt="Arrow"
   onClick={() => setToggle((prev) => !prev)}
   /> */}
-  <div className={`${!toggle ? 'flex' : 'hidden' } p-6 mx-4 absolute sidebar md:mt-[220px] mt-[300px]  rounded-3xl bg-gray-800 flex-col text-white font-bold text-[10px] justify-between`}>
+  <div className={`${toggle ? 'flex' : 'hidden' } p-6 mx-4 absolute sidebar md:mt-[220px] mt-[300px]  rounded-3xl bg-gray-800 flex-col text-white font-bold text-[10px] justify-between`}>
 
 <div className='flex-col space-y-2  '>
   <h1>
